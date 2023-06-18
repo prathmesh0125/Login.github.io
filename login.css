@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 body{
     width: 100%;
@@ -10,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     letter-spacing: 1px;
-    background-color:black;
+    background-color:#181837;
 }
 .login_form_container{
     position: relative;
@@ -18,7 +19,7 @@ body{
     height: 470px;
     max-width: 400px;
     max-height: 470px;
-    background: #040717;
+    background: #181837;
     border-radius: 50px 5px;
     display: flex;
     align-items: center;
@@ -69,18 +70,19 @@ body{
 .login_form{
     position: absolute;
     content: '';
-    background-color: black;
+    background-color: #181837;
     border-radius: 50px 5px;
     inset: 5px;
     padding: 50px 40px;
     z-index: 10;
-    color: #00ccff;
+    color: #04f7a6cf;
 
 } 
 h2{
     font-size: 40px;
     font-weight: 600;
     text-align: center;
+
 }
 .input_group{
     margin-top: 40px;
@@ -95,15 +97,15 @@ h2{
     background: transparent;
     border: none;
     outline: none;
-    border-bottom: 1px solid #00ccff;
+    border-bottom: 1px solid #15e5ef;
     font-size: 20px;
     padding-left: 10px;
-    color: #00ccff;
+    color: #ff6868;
 
 }
 ::placeholder{
     font-size: 15px;
-    color: #00ccff52;
+    color: #15e5ef;
     letter-spacing: 1px;
 
 }
@@ -131,10 +133,11 @@ h2{
     letter-spacing: 2px;
     border: 1px solid #00ccff;
     border-radius: 50px;
-    background-color: black;
+    background-color: #181831;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -2px;
 }
 .fotter {
     margin-top: 30px;
@@ -146,9 +149,12 @@ h2{
     text-decoration: none;
     cursor: pointer;
     font-size: 18px;
-    color:#00ccff ;
+    color:#cc9bc7 ;
 }
 .glowIcon {
     text-shadow: 0 0 10px #00ccff;
 
+}
+i{
+    color:red;
 }
