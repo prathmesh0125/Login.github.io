@@ -42,7 +42,7 @@ body{
     width: 170%;
     height: 170%;
     content: '';
-    background-image: conic-gradient(transparent, white, red, blue);
+    background-image: conic-gradient(transparent, transparent, red, blue);
     animation: rotate_border 6s linear infinite; 
     
 }
@@ -53,7 +53,7 @@ body{
     width: 170%;
     height: 170%;
     content: '';
-    background-image: conic-gradient(green, transparent,red,blue );
+    background-image: conic-gradient(transparent,transparent ,red,blue );
     animation: rotate_border 6s linear infinite;
     animation-delay: -3s;
 }
